@@ -1,0 +1,10 @@
+method,n_input_features,n_selected_features,time_taken,f1_score
+PSO + all features without split,51,597,6.5 hrs,-
+Variance Threshold + PSO (testrun3),51,22,29 mins,0.9998
+Mutual Info + Pso (testrun4),51,22,35 mins,0.9998
+Anova F test + PSO (testrun5),51,16,35 mins,0.9998
+Chi Sqaure + PSO (testrun6),51,20,30 mins,0.9919
+RFE + PSO (testrun7),51,15,40 mins,0.9998
+Random Forest Feature Importance + PSO (testrun8),51,7,30 mins,0.9989
+Correlation + PSO (testrun9),51,6,22 mins,0.9836
+Correlation ONLY,51,10,48 sec,0.9806
